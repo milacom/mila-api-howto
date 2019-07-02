@@ -1,0 +1,28 @@
+{
+    "servicePackageOfferingIds": [
+        "7fd13368-2c4c-4447-989e-47b76c0ab517"
+    ],
+    "email": "pkowalski@mila.com",
+    "communicationLanguage": "en",
+    "address": {
+        "firstName": "Pawel",
+        "lastName": "Kowalski",
+        "street": "Gutenbergstrasse",
+        "streetNumber": "1",
+        "city": "Zürich",
+        "country": "CH",
+        "postalCode": "8002"        
+    },
+    "invoiceAddress": {
+        "firstName": "Pawel",
+        "lastName": "Kowalski",
+        "street": "Gutenbergstrasse",
+        "streetNumber": "1",
+        "city": "Zürich",
+        "country": "CH",
+        "postalCode": "8002"        
+    },
+    "description": "service call",
+    "termsAndConditionsId": "57bc6064-6c75-4512-adac-2bfaa837c783",
+    "legalRegionId": "fb581c89-97d7-4df1-807a-2b07433bdf11"
+}
