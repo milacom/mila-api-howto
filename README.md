@@ -45,13 +45,13 @@ Response:
 
 ## Book service calls
 
-*Attention:* `serviceCallDate` is in Zulu Time. (Example: "2019-07-16T15:00:00.000Z" is 2019-07-16T17:00:00+02:00 Europe/Berlin)
-
 Book a service call with data from `data/booking-data.json`:
 
 ```bash
 curl -X POST -H "x-api-key: $API_KEY" -H "Content-Type: application/json" -d @data/booking-data.json $ENDPOINT/service-calls
 ```
+
+*Attention:* `serviceCallDate` is in Zulu Time. (Example: "2019-07-16T15:00:00.000Z" is 2019-07-16T17:00:00+02:00 Europe/Berlin)
 
 Response:
 
