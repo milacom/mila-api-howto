@@ -45,6 +45,8 @@ Response:
 
 ## Book service calls
 
+*Attention:* `serviceCallDate` is in Zulu Time. (Example: "2019-07-16T15:00:00.000Z" is 2019-07-16T17:00:00+02:00 Europe/Berlin)
+
 Book a service call with data from `data/booking-data.json`:
 
 ```bash
