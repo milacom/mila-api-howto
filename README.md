@@ -51,7 +51,8 @@ Book a service call with data from `data/booking-data.json`:
 curl -X POST -H "x-api-key: $API_KEY" -H "Content-Type: application/json" -d @data/booking-data.json $ENDPOINT/service-calls
 ```
 
-*Attention:* `serviceCallDate` is in Zulu Time. (Example: `019-07-16T15:00:00.000Z` is `2019-07-16T17:00:00+02:00 Europe/Berlin`)
+*Attention:* `serviceCallDate` is in Zulu Time (UTC, example: `019-07-16T15:00:00.000Z` is `2019-07-16T17:00:00+02:00 Europe/Berlin`). The date has to be at least 24hours ahead of the current datetime 
+
 
 Response:
 
