@@ -5,7 +5,7 @@
 
 ```bash
 export API_KEY=<api-key>
-export ENDPOINT=https://api.mila.cloud/dev
+export ENDPOINT=https://api.mila.cloud/int
 ```
 
 ## Get Packages
