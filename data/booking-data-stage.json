@@ -1,21 +1,21 @@
 {
     "servicePackageOfferingIds": [
-        "7fd13368-2c4c-4447-989e-47b76c0ab517"
+        "9fcb5373-4c1f-4f24-b8fe-5f89210fff56"
     ],
     "email": "pkowalski@mila.com",
     "communicationLanguage": "en",
     "address": {
-        "firstName": "Pawel",
-        "lastName": "Kowalski",
-        "street": "Gutenbergstrasse",
-        "streetNumber": "1",
-        "city": "Zürich",
+        "firstName": "Pawel Kowalski",
+        "lastName": "  ",
+        "street": "Flüelerstrasse",
+        "streetNumber": "60",
+        "city": "Flüelen",
         "country": "CH",
-        "postalCode": "8002"        
+        "postalCode": "8064"        
     },
     "invoiceAddress": {
-        "firstName": "Pawel",
-        "lastName": "Kowalski",
+        "firstName": "Pawel Kowalski",
+        "lastName": "  ",
         "street": "Gutenbergstrasse",
         "streetNumber": "1",
         "city": "Zürich",

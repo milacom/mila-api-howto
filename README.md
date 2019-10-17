@@ -45,10 +45,27 @@ Response:
 
 ## Book service calls
 
-Book a service call with data from `data/booking-data.json`:
+### Stage / Integration package
+
+Book a service call with data from `data/booking-data-stage.json`:
 
 ```bash
-curl -X POST -H "x-api-key: $API_KEY" -H "Content-Type: application/json" -d @data/booking-data.json $ENDPOINT/service-calls
+export EXAMPLE_API_CALL_DATA=data/booking-data-stage.json
+```
+
+### Production package
+
+Book a service call with data from `data/booking-data-prod.json`:
+
+```bash
+export EXAMPLE_API_CALL_DATA=data/booking-data-prod.json
+```
+
+### Execute the service call API call
+
+
+```bash
+curl -X POST -H "x-api-key: $API_KEY" -H "Content-Type: application/json" -d @$EXAMPLE_API_CALL_DATA $ENDPOINT/service-calls $ENDPOINT/service-calls
 ```
 
 *Attention:* `serviceCallDate` is in Zulu Time (UTC, example: `019-07-16T15:00:00.000Z` is `2019-07-16T17:00:00+02:00 Europe/Berlin`). The date has to be at least 24hours ahead of the current datetime 
