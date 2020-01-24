@@ -83,7 +83,7 @@ Response:
 ### Business Model PREPAID_INVOICED_TO_ENTERPRISE_PARTNER [OTTO etc.]
 
 *Example*: 
-```
+```json
 {
     "servicePackageOfferingIds": ["d3960c83-eda3-46dd-8dbd-7fb1d86b4e2f"], // ⚠️ SPO has to be provided by the enterprise partner with 
     "email": "customeremail@somemailprovider.com",
