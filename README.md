@@ -91,7 +91,7 @@ Response:
     "address": { // ⚠️ required, invoiceadress to be skipped instead; need to be valid as Google Maps checks correctness
     "firstName": "First",
     "lastName": "Last",
-		"city": "City",
+    "city": "City",
     "postalCode": "10115",
     "phoneNumber": "+491605551769",
     "street": "Strasse",
