@@ -79,3 +79,27 @@ Response:
   "id": "13dd8994-1e91-4c8c-8c66-59f95e6af7c7"
 }
 ```
+
+### Business Model PREPAID_INVOICED_TO_ENTERPRISE_PARTNER [OTTO etc.]
+
+*Example*: 
+```
+{
+    "servicePackageOfferingIds": ["d3960c83-eda3-46dd-8dbd-7fb1d86b4e2f"], // ⚠️ SPO has to be provided by the enterprise partner with 
+    "email": "customeremail@somemailprovider.com",
+    "communicationLanguage": "en",  // required
+    "address": { // ⚠️ required, invoiceadress to be skipped instead; need to be valid as Google Maps checks correctness
+    "firstName": "First",
+    "lastName": "Last",
+		"city": "City",
+    "postalCode": "10115",
+    "phoneNumber": "+491605551769",
+    "street": "Strasse",
+    "streetNumber": "1",
+    "country": "DE" // ⚠️
+},
+    "termsAndConditionsId": "03eb23c4-307c-4047-8125-a12515e46bfc", // ⚠️ should not be required but we got some errors, this is German T&C for customers without cancellation but any valid T&C is ok
+    "legalRegionId": "2e0eb199-5e96-4642-aeaa-0fec252eaab9", // ⚠️ required, this is Germany in Prod
+    "businessModel": "PREPAID_INVOICED_TO_ENTERPRISE_PARTNER" // ⚠️⚠️⚠️ Without this, the subsequent steps in the booking are wrong (change of price, invoice address, etc.)
+    }
+```
