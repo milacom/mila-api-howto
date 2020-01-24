@@ -47,18 +47,20 @@ Response:
 
 ### Stage / Integration package
 
-Book a service call with data from `data/booking-data-stage.json`:
+Book a service call with data from `data/booking-data-stage.json` or `data/booking-data-stage-OTTO.json`:
 
 ```bash
 export EXAMPLE_API_CALL_DATA=data/booking-data-stage.json
+export EXAMPLE_API_CALL_DATA=data/booking-data-stage-OTTO.json
 ```
 
 ### Production package
 
-Book a service call with data from `data/booking-data-prod.json`:
+Book a service call with data from `data/booking-data-prod.json` or `data/booking-data-prod-OTTO.json`:
 
 ```bash
 export EXAMPLE_API_CALL_DATA=data/booking-data-prod.json
+export EXAMPLE_API_CALL_DATA=data/booking-data-prod-OTTO.json
 ```
 
 ### Execute the service call API call

@@ -1,0 +1,20 @@
+{
+    "servicePackageOfferingIds": [
+        "d3960c83-eda3-46dd-8dbd-7fb1d86b4e2f"
+    ],
+    "email": "kunde@mila.com",
+    "communicationLanguage": "de",
+    "address": {
+        "firstName": "Kunde",
+        "lastName": "Kundig",
+        "street": "Meiningerstrasse",
+        "streetNumber": "89",
+        "city": "Suhl",
+        "country": "DE",
+        "postalCode": "98529"
+    },
+    "termsAndConditionsId": "9c7aff84-4ffe-48e9-9741-91e85a525be2",
+    "legalRegionId": "79c3ea6d-6a45-405b-9971-25f47359ef4e",
+    "serviceCallDate": "2020-12-16T15:00:00.000Z",
+    "businessModel": "PREPAID_INVOICED_TO_ENTERPRISE_PARTNER"
+}
