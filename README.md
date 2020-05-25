@@ -100,7 +100,7 @@ Response:
     "streetNumber": "1",
     "country": "DE" // ⚠️
 },
-    "termsAndConditionsId": "03eb23c4-307c-4047-8125-a12515e46bfc", // ⚠️ should not be required but we got some errors, this is German T&C for customers without cancellation but any valid T&C is ok
+    "termsAndConditionsId": "caf18cf4-acb4-482a-b6af-b3dc502692db", // ⚠️ should not be required but we got some errors, this is German T&C for customers without cancellation but any valid T&C is ok
     "legalRegionId": "2e0eb199-5e96-4642-aeaa-0fec252eaab9", // ⚠️ required, this is Germany in Prod
     "businessModel": "PREPAID_INVOICED_TO_ENTERPRISE_PARTNER" // ⚠️⚠️⚠️ Without this, the subsequent steps in the booking are wrong (change of price, invoice address, etc.)
     }
