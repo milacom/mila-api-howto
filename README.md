@@ -99,7 +99,11 @@ Response:
     "street": "Strasse",
     "streetNumber": "1",
     "country": "DE" // ⚠️
-},
+    },
+    "serviceCallData": { // optionally, some internal service call data can be also provided and saved by us
+        "origin": "EPName", // enterprise partner name
+        "enterprisePartnerOrderId": "34235234" // internal order Id
+	}
     "termsAndConditionsId": "caf18cf4-acb4-482a-b6af-b3dc502692db", // ⚠️ should not be required but we got some errors, this is German T&C for customers without cancellation but any valid T&C is ok
     "legalRegionId": "2e0eb199-5e96-4642-aeaa-0fec252eaab9", // ⚠️ required, this is Germany in Prod
     "businessModel": "PREPAID_INVOICED_TO_ENTERPRISE_PARTNER" // ⚠️⚠️⚠️ Without this, the subsequent steps in the booking are wrong (change of price, invoice address, etc.)
